@@ -1,0 +1,40 @@
+/**/.DS_Store
+/**/.idea/
+/**/.env
+!/**/.env.example
+/**/vendor/
+/**/node_modules/
+/**/composer.lock
+/**/*.code-workspace
+/**/*.map
+/**/.php_cs.cache
+/**/.vscode/
+
+# Docker
+/**/docker/apache/logs/*
+!/**/docker/apache/logs/.gitkeep
+/**/docker/mysql/*
+!/**/docker/mysql/config
+!/**/docker/mysql/database/.gitkeep
+/**/docker/postgres/*
+!/**/docker/postgres/.gitkeep
+
+# Cache
+/**/storage/cache/app/*
+/**/storage/cache/twig/*
+!/**/storage/cache/app/.gitkeep
+!/**/storage/cache/twig/.gitkeep
+
+# Logs
+/**/storage/logs/php/*
+!/**/storage/logs/php/.gitkeep
+/**/storage/logs/error/*
+!/**/storage/logs/error/.gitkeep
+
+# Session
+/**/storage/sessions/*
+!/**/storage/sessions/.gitkeep
+
+# Public folder
+/**/public_html/uploads/*
+!/**/public_html/uploads/.gitkeep
